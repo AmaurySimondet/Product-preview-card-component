@@ -1,108 +1,261 @@
-/************* TAGS ***********/
-body{
-    background-color: #F0F0F0;
-    margin: 5%;
-    width: 50%
+/************* DESKTOP ***********/
+@media all and (min-width:600px) {
+    /************* TAGS ***********/
+    body{
+        background-color: #F0F0F0;
+        margin: 5%;
+        width: 50%
+    }
+
+    p{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 10%;
+    }
+
+    h2{
+        font-family: 'Fraunces', serif;
+        margin-bottom: 20%;
+    }
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        weight: 700;
+        display: inline;
+        margin-bottom: 10%;
+        color: #3F836C;
+        margin-right:5%;
+    }
+
+    h3{
+        font-family: 'Impact', sans-serif;
+        weight: 700;
+        margin-bottom: 10%;
+    }
+
+
+    td{
+        padding:0;
+        padding-right:30px;
+    }
+
+    figure{
+        display:none;
+    }
+
+    /************* CLASSES ***********/
+
+    .btn {
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: Georgia;
+      color: #ffffff;
+      font-size: 17px;
+      background: #3D8168;
+      padding: 14px 8% 14px 8%;
+      border: solid #1f628d 0px;
+      text-decoration: none;
+      width: auto;
+    }
+
+    .btn:hover {
+      background: #1A4031;
+      text-decoration: none;
+    }
+
+    .product-pic-mobile{
+            display: none;
+        }
+
+    .product-pic-desktop{
+        float: left;
+        width: 100%;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .intern-square{
+        background-color: white;
+        width: 80%;
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .external-square{
+        background-color: #F2E9E2;
+        padding: 10% 0 10% 40%;
+        width: 140%;
+        box-shadow: 0px 0px 0px 0px #ccc, 0px 10px 5px 0px #ccc, 0px 0px 40px 10px #ddd;
+        position: relative;
+    }
+
+    .attribution{
+        text-align: center;
+        position: relative;
+        bottom: -50px;
+    }
+
+    /************* IDs ***********/
+    #crossed{
+        text-decoration: line-through;
+        display: inline;
+    }
+
+    #text-td{
+        width:auto;
+        height:auto;
+    }
+
+    #image-td-desktop{
+        width:50%;
+    }
+
+    #button{
+        text-align: center;
+        margin: 15% auto;
+    }
+
 }
 
-p{
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 10%;
-}
-
-h2{
-    font-family: 'Fraunces', serif;
-    margin-bottom: 20%;
-}
-
-h1{
-    font-family: 'Montserrat', sans-serif;
-    weight: 700;
-    display: inline;
-    margin-bottom: 10%;
-    color: #3F836C;
-    margin-right:5%;
-}
-
-h3{
-    font-family: 'Impact', sans-serif;
-    weight: 700;
-    margin-bottom: 10%;
-}
 
 
-td{
-    padding:0;
-    padding-right:30px;
-}
 
-/************* CLASSES ***********/
 
-.btn {
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Georgia;
-  color: #ffffff;
-  font-size: 17px;
-  background: #3D8168;
-  padding: 14px 30px 14px 30px;
-  border: solid #1f628d 0px;
-  text-decoration: none;
-  width: auto;
-}
 
-.btn:hover {
-  background: #1A4031;
-  text-decoration: none;
-}
+/************* PHONE ***********/
+@media all and (min-width:320px) and (max-width: 600px) {
+    /************* TAGS ***********/
+    body{
+        background-color: #F0F0F0;
+        margin: 5%;
+        width: 50%
+    }
 
-.product-pic{
-    float: left;
-    width: 100%;
-    border-radius: 15px 0 0 15px;
-}
+    p{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 10%;
+    }
 
-.intern-square{
-    background-color: white;
-    width: 80%;
-    border-radius: 15px;
-    position: relative;
-}
+    h2{
+        font-family: 'Fraunces', serif;
+        margin-bottom: 20%;
+    }
 
-.external-square{
-    background-color: #F2E9E2;
-    padding: 10% 0 10% 40%;
-    width: 140%;
-    box-shadow: inset 0px -2px 2px 0px #ccc,
-            inset 0px -5px 5px 0px #ddd,
-            inset 0px -7px 7px 0px #eee;
-    position: relative;
-}
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        weight: 700;
+        display: inline;
+        margin-bottom: 10%;
+        color: #3F836C;
+        margin-right:5%;
+    }
 
-.attribution{
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-}
+    h3{
+        font-family: 'Impact', sans-serif;
+        weight: 700;
+        margin-bottom: 10%;
+    }
 
-/************* IDs ***********/
-#crossed{
-    text-decoration: line-through;
-    display: inline;
-}
 
-#text-td{
-    width:auto;
-    height:auto;
-}
+    td{
+        padding:0;
+        padding-right:30px;
+        padding-left:30px;
+    }
 
-#image-td{
-    width:50%;
-}
+    figure{
+       overflow:hidden; /*hide bounds of image */
+       margin:0;   /*reset margin of figure tag*/
+        border-radius: 15px 15px 0 0 ;
+    }
 
-#button{
-    text-align: center;
-    margin: 15% auto;
+    figure img{
+       display:block; /*remove inline-block spaces*/
+       width:100%; /*make image streatch*/
+       margin:-35% 0;
+    }
+
+    table{
+        width:80%;
+    }
+
+    /************* CLASSES ***********/
+
+    .btn {
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: Georgia;
+      color: #ffffff;
+      font-size: 17px;
+      background: #3D8168;
+      padding: 14px 10px 14px 10px;
+      border: solid #1f628d 0px;
+      text-decoration: none;
+      width: auto;
+    }
+
+    .btn:hover {
+      background: #1A4031;
+      text-decoration: none;
+    }
+
+    .product-pic-desktop{
+        display: none;
+    }
+
+    .product-pic-mobile{
+        width: 100%;
+        padding:0;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .intern-square{
+        background-color: white;
+        width: 110%;
+        border-radius: 15px;
+        position: relative;
+        right: 70px;
+    }
+
+    .external-square{
+        background-color: #F2E9E2;
+        padding: 10% 0 10% 40%;
+        width: 140%;
+        box-shadow: 0px 0px 0px 0px #ccc, 0px 10px 5px 0px #ccc, 0px 0px 40px 10px #ddd;
+        position: relative;
+    }
+
+    .attribution{
+        text-align: center;
+        position: relative;
+        bottom: -50px;
+    }
+
+    /************* IDs ***********/
+    #crossed{
+        text-decoration: line-through;
+        display: inline;
+    }
+
+    #text-td{
+        width:auto;
+        height:auto;
+    }
+
+    #image-td-desktop{
+        display: none;
+    }
+
+    #image-td-mobile{
+        width:50%;
+        padding:0;
+    }
+
+    #button{
+        text-align: center;
+        margin: 15% auto;
+    }
+
 }
